@@ -8,13 +8,11 @@
     display: grid;
     grid-template: 25% 25% 25% 25%/ 25% 25% 25% 25%;
     height: 100%;
-    background-color: gray;
     height: 100vh;
 }
 
 .grid-item {
     padding: 30px;
-    background-color: orange;
     border: 1px solid #000;
     text-align: center;
 }
@@ -24,13 +22,19 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 5;
+    background-color: lightskyblue;
 }
 
 .header {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
+    background-color: #ffffff;
 }
 
 .main-content {
-    grid-column-start: ;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: #b8b5b5a1;
 }
