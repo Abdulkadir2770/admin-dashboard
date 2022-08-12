@@ -23,7 +23,7 @@
     grid-row-end: 5;
     grid-column-start: 2;
     grid-column-end: 5;
-    background-color: #b8b5b5a1;
+    background-color: #e6e4e4a1;
 }
 
 /* sidebar section*/
@@ -101,10 +101,10 @@ h3:hover {
     background-color: #f1eeee;
     border-radius: 10px;
     border: none;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 #h-section-two {
@@ -125,6 +125,26 @@ h3:hover {
 
 h5 {
     font-size: 25px;
+}
+
+#h-section-four {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 100px;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #00b7ff;
+    border: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
 }
 
 #h-section-three {
