@@ -191,11 +191,18 @@ button {
 .box-two {
     background-color: #ffffff;
     width: 100%;
-    height: 150px;
+    height: 165px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .text {
     text-align: left;
+    margin-bottom: 12px;
 }
 
 h6 {
@@ -211,4 +218,5 @@ p {
 
 .img-icon {
     width: 25px;
+    cursor: pointer;
 }
