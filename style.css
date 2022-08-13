@@ -194,10 +194,10 @@ button {
     height: 165px;
     margin-bottom: 10px;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
     text-align: center;
 }
 
@@ -220,4 +220,9 @@ p {
 .img-icon {
     width: 25px;
     cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    margin-left: 10%;
 }
